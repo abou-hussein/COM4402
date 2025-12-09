@@ -1,0 +1,48 @@
+# =========================
+# OS: Windows
+# =========================
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg
+*.egg-info/
+.eggs/
+dist/
+build/
+pip-wheel-metadata/
+*.log
+
+# Virtual Environments
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment variables
+*.env
+*.env.*
+.envrc
+
+# =========================
+# JetBrains: PyCharm / IntelliJ IDEA
+# =========================
+.idea/
+*.iml
+out/
+
+# =========================
+# Misc
+# =========================
+.DS_Store
