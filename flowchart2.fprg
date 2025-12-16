@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="flowchart2"/>
+        <attribute name="authors" value="ah33crt"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-12-09 01:53:27 PM"/>
+        <attribute name="created" value="YWgzM2NydDtBTVREMjA0LTI2OzIwMjUtMTItMDk7MDE6NDI6MzEgUE07MjUwMQ=="/>
+        <attribute name="edited" value="YWgzM2NydDtBTVREMjA0LTI2OzIwMjUtMTItMDk7MDE6NTM6MjcgUE07MTsyNjE2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="age, nextAge" type="Integer" array="False" size=""/>
+            <output expression="&quot;what is your age&quot;" newline="True"/>
+            <input variable="age"/>
+            <assign variable="nextAge" expression="age + 1"/>
+            <output expression="&quot;your age is &quot; &amp; nextAge" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

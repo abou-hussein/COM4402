@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="flowchart"/>
+        <attribute name="authors" value="ah33crt"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-12-09 01:41:37 PM"/>
+        <attribute name="created" value="YWgzM2NydDtBTVREMjA0LTI2OzIwMjUtMTItMDk7MDE6MjE6MjMgUE07MjQ5OQ=="/>
+        <attribute name="edited" value="YWgzM2NydDtBTVREMjA0LTI2OzIwMjUtMTItMDk7MDE6NDE6MzcgUE07MTsyNjE0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numA, numB, sum" type="Integer" array="False" size=""/>
+            <output expression="&quot;Please enter the value of A&quot;" newline="True"/>
+            <input variable="numA"/>
+            <output expression="&quot;Please enter the value of B&quot;" newline="True"/>
+            <input variable="numB"/>
+            <output expression="numA + numB" newline="True"/>
+            <output expression="&quot;numA + numB&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
