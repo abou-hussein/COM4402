@@ -1,4 +1,4 @@
-
+# list of questions
 questions = [
     {
         "question": "What is the capital of France?",
